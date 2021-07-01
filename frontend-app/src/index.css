@@ -1,0 +1,45 @@
+body {
+	background: url(backImg1.jpg) center fixed;
+  background-size: cover;
+  height: 100%;
+ 
+
+}
+ul {
+	list-style-type:none;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.wrapper > div {
+	width: 50%;
+	margin: 10px;
+	text-align: center;
+}
+
+.cardbox {
+    width: 100%;
+    border: 1px solid #000000;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 1em;
+	border-radius: 5px;
+}
+.cardbox:hover {
+	background-color: #b5b4b4;
+	text-decoration: underline;
+}
+
+button {
+   padding: 5px 15px;
+   margin: 5px;
+   min-width: 100px
+ }
+ 
